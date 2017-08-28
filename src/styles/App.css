@@ -1,0 +1,83 @@
+.App {
+  width: 500px;
+  margin: 0 auto;
+}
+
+nav {
+  background-color: #007Bff;
+  line-height: 1.6em;
+  font-weight: bold;
+  border-bottom: 1px solid grey;
+  padding: 10px;
+
+}
+
+.aimlogo {
+  width: 30px;
+  animation: aimlogo-spin infinite 5s linear;
+}
+
+@keyframes aimlogo-spin {
+  from { transform: rotate(360deg); }
+  to { transform: rotate(0deg); }
+}
+
+.aim {
+  border: 2px solid #007BFF;
+  border-radius: 5px;
+  background-color: #ece9d8;
+}
+
+footer {
+  background-color: #007bff;
+  font-weight: thin;
+  border-top: 1px solid grey;
+  padding: 5px;
+}
+
+.body {
+  width: 400px;
+  margin: 0 auto;
+  background-color: #ece9d8;
+}
+
+.message {
+  width: 100%;
+  height: 20px;
+  margin-top: 10px;
+  border-style: none;
+  box-sizing: border-box;
+}
+
+.submitbutton {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.submit {
+  width: 80px;
+  height: 40px;
+  border-radius: 10px;
+  border-style: none;
+  color: white;
+  background-color: #007BFF;
+  margin: 10px 0;
+}
+
+.display {
+  border: 1px solid grey;
+  padding: 12px;
+  background-color: white;
+  margin-top: 10px;
+}
+
+.display h3 {
+  color: lightgray;
+  font-weight: 200;
+  font-size: 1.1em;
+  margin: 0;
+}
+
+.response {
+  padding: 12px;
+}
